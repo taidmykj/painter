@@ -1,1 +1,139 @@
 <!--Home page-->
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Konoin Painter Services | Welcome</title>
+  <link rel="stylesheet" href="styles.css" media="handheld,screen">
+</head>
+<script src="index.js">
+</script>
+<body>
+  
+  <div>
+    <img class="coverPhoto" src="./photos/cover.jpg">
+  </div>
+  <div>
+    <img draggable="true" onclick="displayPhoto()" class="profilePhoto" src="./photos/dp.jpg">
+  </div>
+  <div>
+    <p class="user name">Caleb Brighton<span>
+      <img class="verify" height="20"src="./photos/verify.webp">
+    </span></p>
+    <p class="user telNum">07-58-003-010</p>
+    <p class="user hash">#Nothing louder than the results!</p>
+  </div>
+  <hr>
+  <div id="display"></div>
+  <div>
+    <!--p class="msg">Hello! Welcome to Konoin Painter's paintings' site. 
+      It's my pleasure having you here.
+    </p-->
+    <div onclick="cancel()">
+    <h1 class="title"><span class="letter k">
+      K</span>onoin <span class="letter p">P</span>ainter <span class="letter s">S</span>ervices</h1>
+    <ol>
+      <li>Painting & Renovations</li>
+      <li>Drawing</li>
+      <li>Sign Writing</li>
+      <li>Gypsum & Skimming</li>
+      <li>Stencils</li>
+      <!---li>Gypsum</li>
+      <li>Renovations</li-->
+    </ol>
+    <hr style="margin-bottom: 20px;>
+    <div class="links">
+        <a class="home" href="index.html">Home</a> |
+      <a class="paint" href="#paint">Painting</a> |
+      <a class="draw" href="#draw">Drawing</a> |
+      <a class="write" href="#write">Writing</a> |
+      <a class="gyp" href="#gyp">Gypsum</a> |
+      <a class="sten" href="#sten">Stencils</a> |
+      <a id="goAbout" class="about" href="#about">About</a>
+      <!--img src="/storage/emulated/0/Download/home.png" height="20">
+      <img height="20">
+      <img height="20"-->
+    </div>
+    <hr style="margin-top: 20px;">
+    <h2 id="paint" class="painting">Painting & Renovations</h2>
+    
+      <img class="img-paint" src="./photos/painting.jpg">
+    <p class="paint-msg"><br><br>
+      As a professional painter with years of experience, 
+      <br>I’ve come to learn that painting is more than just adding color to walls but it’s all about transforming spaces.<br><br> Whether you're working on new construction or renovation, the finish quality always reflects the preparation, the material used, and the skill of the painter.
+      
+     </p>
+    <hr>
+    <h2 id="draw" class="drawing">Drawing</h2>
+    <img class="drawing-img" src="./photos/drawing.jpg">
+    <p class="drawing-msg">
+      Paint drawings starts with a good foundation.
+      <br><br>
+      It needs proper surface preparation, this basically means the surface of either wall
+      should be :-<br>
+      &nbsp;&nbsp;• Clean - without dust; <br>
+      &nbsp;&nbsp;• Sanded - the wall texture shouldn't be
+      rough;<br><br>
+      Drawing comes into play for artistic wall designs or murals.
+      A clean, accurate sketch ensures the final result is well-proportioned and aligned.
+    </p>
+    <hr>
+    <h2 id="write" class="sign">Sign Writing</h2>
+    <img class="sign-img" src="./photos/sign.jpg">
+    <p class="sign-msg" >
+      <br><br>
+      Sign writing is a specialized skill involving hand-painted or digitally designed letters and graphics.<br>This is the main skill of good painter.<br> In commercial spaces, it’s a way to make branding pop.<br><br>
+      The paint used here must be bold, UV-resistant, and long-lasting.
+
+    </p>
+    <hr>
+    <h2 id="gyp" class="skimming">Gypsum & Skimming</h2>
+    <img class="skimming-img" src="./photos/gypsum.jpg">
+    <p class="gypsum-msg">
+      <br>
+      Gypsum boards (drywall) are standard in<br> modern construction. 
+      <br><br>After installation, skimming is applied—a thin coat of plaster that creates a smooth, paint-ready surface.<br>
+      Skimming ensures that the wall is flawless before any paint touches it.<br> The smoother the skim, the better the paint finish.
+    </p>
+    <hr>
+    <h2 id="sten" class="stencil">Stencil</h2>
+    <img class="sten-img" src="./photos/stencil.jpg">
+    <p class="sten-msg">
+      <br><br>
+      Stenciling adds design and personality to walls.<br>
+      It requires precision and the right tools. High-quality stencil work depends on clean-cut patterns, good brushes or rollers, and a steady hand. <br>
+      <br><br>
+      It’s commonly used for logos, decor, or signage in both homes and businesses.
+    </p>
+  </div>
+  <!--div id="leave" class="button">
+  <button class="l-msg" onclick="count()">Leave A Message</button>
+  
+</div-->
+  <div class="aboutBg">
+    <h2 id="about">About</h2>
+    <p>Whatsapp Me: Caleb Brighton - <u>
+      <a title="contact me" href="https://wa.me/254789925270?text=Hello%20Caleb%20Brighton!%20I%20would%20like%20to%20have
+      %20some%20painting%20services">+254758003010</a></u></p>
+    <p>Call Now: <u>+254758003010</u></p>
+    <a href="https://wa.me/254789925270?text=Hello%20Caleb%20Brighton!%20I%20would%20like%20to%20have
+      %20some%20painting%20services">Whatsapp</a>
+    <a href="myktaidj@gmail.com">Email</a>
+    <a href="">Tiktok</a>
+    <a href="">Phone</a>
+  </div>
+    <p>#Quality Paints, Quality Results! </p>
+    <i>In partnership with: </i>
+    <div class="dura">
+    <img src="./photos/duracoat.png">
+    </div>
+  </div>
+  <a href="" id="link" style="display: hidden;"></a>
+  <footer>
+    <p class="footerB">Thanks to Taid MykJ <[°-°]> &copy;2025.All Rights Reserved.</p>
+  </footer>
+</body>
+    </html>
+                                            
