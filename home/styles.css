@@ -67,7 +67,7 @@ ol {
 .title {
   font-size: 3rem;
   font-weight: 1000;
-  background-image: url('./photos/bgPhoto.jpg');
+  background-image: url('pic/bgPhoto.jpg');
   color: #fff;
   text-align: center;
   background-size: cover;
