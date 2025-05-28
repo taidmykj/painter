@@ -67,7 +67,8 @@ ol {
 .title {
   font-size: 3rem;
   font-weight: 1000;
-  background-image: url('bgPhoto.jpg');
+  background-image: url(
+    'github.com/taidmykj/painter/pic/bgPhoto.jpg');
   color: #fff;
   text-align: center;
   background-size: cover;
