@@ -91,11 +91,12 @@ ol {
   font-weight: bolder;
   margin: 10%;
   text-align: center;
-  background-image: url('./photos/bgPhoto.jpg');
+  color: #131D24;
+  /*background-image: url('./photos/bgPhoto.jpg');
   color: #fff;
   background-size: cover;
   background-clip: text;
-  color: transparent;
+  color: transparent;*/
   
 }
 
