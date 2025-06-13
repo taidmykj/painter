@@ -82,7 +82,8 @@ function cancel() {
 }
 
 function okay() {
-    document.getElementById('link').click();
+    window.location.href = "https://files.catbox.moe/kz97pg.jpg";
+    //document.getElementById('link').click();
 }
 
 function locate() {
